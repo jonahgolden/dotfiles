@@ -1,0 +1,16 @@
+# Path to your oh-my-zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
+# open `git commit` in vscode
+export GIT_EDITOR='/usr/local/bin/code -w'
+
+### Plugins
+
+plugins=(git safe-paste vscode history zsh-autosuggestions zsh-syntax-highlighting)
+
+## history
+# h - prints your history
+# hs [searchterm] - searches your history with grep
+# hsi [serachterm] - same as above but case insensitive
+
+source $ZSH/oh-my-zsh.sh
